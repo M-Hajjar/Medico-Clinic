@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Medico</title>
+</head>
+<body>
+  <div class="header topnav">
+    <div class="container">
+      <a href="#home" class="logo text-primary active">Medico</a>
+      <div class="header-right">
+        <a class="menuItem" href="#home">Home</a>
+        <a class="menuItem" href="#contact">Contact</a>
+        <a class="menuItem" href="#ourdoctors">Our Doctors</a>
+        <a class="menuItem" href="#about">About us</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="bodycenter">
+
+    <section class="home" id="home">
+      <h3 class="WelcomeP">Welcome to Our Clinic!</h3>
+      <p class="WelcomeH">Discover Expert Medical Care Tailored Just for You. <br> </p>
+      <p>   </p>
+      <a href="#contact" class="MAP ">Make an Appointment</a>
+    </section>
+
+
+<!-- about us starts here -->
+  <section class="aboutus container" id="about">
+      <h2 class="maintext">WELCOME TO <span class="text-primary"> MEDICIO</span> CLINIC</h2>
+        <div class="fields-container">
+          <div class="field">
+          <i class="icon fa-3x fa-solid fa-stethoscope"></i>
+            <div class="text-area">
+              <p class="fieldtext">Healthcare Professionals</p>
+              <p>Our team consists of dedicated healthcare professionals who are committed to providing exceptional medical care. With years of experience and expertise, we prioritize the well-being and comfort of our patients.</p>
+          </div>
+          </div>
+          <div class="field item2">
+           <i class="icon fa-3x fa-solid fa-microscope"></i>
+            <div class="text-area">
+              <p class="fieldtext">Medical Excellence</p>
+              <p>At Medicio Clinic, we uphold the highest standards of medical excellence. Our cutting-edge facilities and innovative approaches ensure accurate diagnoses and effective treatment plans tailored to each patient's needs.</p>
+          </div>
+          </div>
+          <div class="field item3">
+          <i class="icon fa-3x fa-solid fa-syringe"></i>
+            <div class="text-area">
+              <p class="fieldtext">Latest Technologies</p>
+              <p>We stay at the forefront of medical advancements by incorporating the latest technologies into our practice. From diagnostic tools to treatment methods, we utilize state-of-the-art equipment to deliver superior healthcare services.</p>
+          </div>
+          </div>
+        </div>
+  </section>
+
+<section class="statistics">
+    <div class="numbered-element">
+      <div class="number">12</div>
+      <div class="text">years of <br> experience</div>
+    </div>
+    <div class="numbered-element">
+      <div class="number">78</div>
+      <div class="text">visited <br> conferences</div>
+    </div>
+    <div class="numbered-element">
+      <div class="number">342</div>
+      <div class="text">Smiling <br> Clients</div>
+    </div>
+    <div class="numbered-element">
+      <div class="number">14</div>
+      <div class="text">Master <br>
+             Certifications </div>
+    </div>
+</section>
+
+
+<!-- our departments section starts here -->
+
+
+
+<section class="ourdepartments container">
+  <div class="image media-display-none">
+    <img src="https://M-Hajjar.github.io/hosted-assets/doctor.png" alt="Your Image">
+  </div>
+  <div class="content">
+    <h2 class="Departments-textH">Our <span class="text-primary">Departments</span></h2>
+    <p class="Departments-textP">Welcome to our clinic, where we pride ourselves on providing exceptional healthcare services tailored to meet the unique needs of each patient. Our specialized departments offer a wide range of medical expertise.</p>
+    <button class="accordion"><h3 class="departments-detail-H"><i class="fas fa-tooth fa-2x text-primary"></i> Dentistry<i class="fas fa-duotone fa-arrow-down fa-2x fa-right text-primary media-display-none"></i></h3></button>
+        <div class="panel">
+          <p class="departments-detail-P">Our dentistry department is dedicated to ensuring your oral health and providing comprehensive dental care for patients of all ages.</p>
+          <p class="departments-detail-P">Our dentistry department is dedicated to ensuring your oral health and providing comprehensive dental care for patients of all ages.</p>
+
+  </div>
+
+        <button class="accordion"><h3 class="departments-detail-H"><i class="fas fa-brain fa-2x text-primary"></i>Neurology<i class="fas fa-duotone fa-arrow-down fa-2x fa-right1 text-primary media-display-none"></i></h3></button>
+         <div class="panel">
+           <p class="departments-detail-P">Our neurology department specializes in diagnosing and treating disorders of the nervous system, including the brain and spinal cord.</p>
+           <p class="departments-detail-P">Our neurology department specializes in diagnosing and treating disorders of the nervous system, including the brain and spinal cord.</p>
+  </div>
+
+      <button class="accordion"><h3 class="departments-detail-H"><i class="fas fa-dna fa-2x text-primary"></i>Blood Analysis<i class="fas fa-duotone fa-arrow-down fa-2x fa-right2 text-primary media-display-none"></i></h3></button>
+           <div class="panel">
+             <p class="departments-detail-P">Our blood analysis department provides accurate and timely diagnostic services to help identify and manage various medical conditions.</p>
+             <p class="departments-detail-P">Our blood analysis department provides accurate and timely diagnostic services to help identify and manage various medical conditions.</p>
+  </div>
+
+
+
+  </div>
+</section>
+
+
+
+
+
+<!-- our doctors section starts here -->
+
+<section class="our-doctors" id="ourdoctors">
+  <div class="container">
+    <h2 class="text-centered Departments-textH">Our <span class="text-primary">Doctors</span></h2>
+    <p class="text-centered Departments-textP">At our clinic, we are proud to have a team of highly skilled and compassionate doctors <br> who are dedicated to providing exceptional care to our patients. With expertise in various medical <br> specialties and a commitment to staying updated with the latest advancements <br> in healthcare, our doctors strive to deliver personalized treatment plans tailored to each individual's needs.</p>
+
+    <div class="buttons-container">
+      <button class="doctor-button" onclick="showDepartment('neurology')">Neurology</button>
+      <button class="doctor-button" onclick="showDepartment('orthopedics')">Orthopedics</button>
+      <button class="doctor-button" onclick="showDepartment('cardiology')">Cardiology</button>
+      <button class="doctor-button" onclick="showDepartment('dermatology')">Dermatology</button>
+    </div>
+
+    <div class="Doctors fields-container">
+      <div class="card" data-department="neurology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-1.png" alt="Dr. Emily Johnson">
+        <div class="card-content">
+          <h2>Dr. Emily Johnson</h2>
+          <p>Specialty: Neurology</p>
+          <p>Location: New York</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="neurology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-2.png" alt="Dr. Alexander Smith">
+        <div class="card-content">
+          <h2>Dr. Alexander Smith</h2>
+          <p>Specialty: Neurology</p>
+          <p>Location: New York</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="neurology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-3.png" alt="Dr. Sophia Rodriguez">
+        <div class="card-content">
+          <h2>Dr. Sophia Rodriguez</h2>
+          <p>Specialty: Neurology</p>
+          <p>Location: New York</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="neurology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-4.png" alt="Dr. Benjamin Lee">
+        <div class="card-content">
+          <h2>Dr. Benjamin Lee</h2>
+          <p>Specialty: Neurology</p>
+          <p>Location: New York</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+
+      <div class="card" data-department="orthopedics">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card1.jpg" alt="Dr. Olivia Thompson">
+        <div class="card-content">
+          <h2>Dr. Olivia Thompson</h2>
+          <p>Specialty: Orthopedics</p>
+          <p>Location: London</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="orthopedics">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card2.png" alt="Dr. Victoria Martinez">
+        <div class="card-content">
+          <h2>Dr. Victoria Martinez</h2>
+          <p>Specialty: Orthopedics</p>
+          <p>Location: London</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="orthopedics">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card3.jpg" alt="Dr. William Harris">
+        <div class="card-content">
+          <h2>Dr. William Harris</h2>
+          <p>Specialty: Orthopedics</p>
+          <p>Location: London</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="orthopedics">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card4.jpg" alt="Dr. Scarlett Perez">
+        <div class="card-content">
+          <h2>Dr. Scarlett Perez</h2>
+          <p>Specialty: Orthopedics</p>
+          <p>Location: London</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+
+      <div class="card" data-department="cardiology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card9.png" alt="Dr. Mia Wilson">
+        <div class="card-content">
+          <h2>Dr. Mia Wilson</h2>
+          <p>Specialty: Cardiology</p>
+          <p>Location: Tokyo</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="cardiology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card101.png" alt="Dr. Amelia Walker">
+        <div class="card-content">
+          <h2>Dr. Amelia Walker</h2>
+          <p>Specialty: Cardiology</p>
+          <p>Location: Tokyo</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="cardiology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card11.png" alt="Dr. Chloe Taylor">
+        <div class="card-content">
+          <h2>Dr. Chloe Taylor</h2>
+          <p>Specialty: Cardiology</p>
+          <p>Location: Tokyo</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="cardiology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card12.png" alt="Dr. Jacob Garcia">
+        <div class="card-content">
+          <h2>Dr. Jacob Garcia</h2>
+          <p>Specialty: Cardiology</p>
+          <p>Location: Tokyo</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+
+      <div class="card" data-department="dermatology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card5.png" alt="Dr. Noah Davis">
+        <div class="card-content">
+          <h2>Dr. Noah Davis</h2>
+          <p>Specialty: Dermatology</p>
+          <p>Location: Paris</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="dermatology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card6.png" alt="Dr. Isabella Martinez">
+        <div class="card-content">
+          <h2>Dr. Isabella Martinez</h2>
+          <p>Specialty: Dermatology</p>
+          <p>Location: Paris</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="dermatology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card7.png" alt="Dr. Ava Rodriguez">
+        <div class="card-content">
+          <h2>Dr. Ava Rodriguez</h2>
+          <p>Specialty: Dermatology</p>
+          <p>Location: Paris</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+      <div class="card" data-department="dermatology">
+        <img src="https://M-Hajjar.github.io/hosted-assets/doctor-card8.png" alt="Dr. Liam Johnson">
+        <div class="card-content">
+          <h2>Dr. Liam Johnson</h2>
+          <p>Specialty: Dermatology</p>
+          <p>Location: Paris</p>
+          <p>Contact: 123-456-7890</p>
+          <button class="appointment-btn">Make an Appointment</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- opening Hours section starts here -->
+
+<section class="container Opening-hours-main" id="contact">
+
+  <div class="opening-header">
+
+
+
+  <h2 class="opening-hoursH">Working <span class="text-primary">Hours</span></h2>
+  <p class="opening-textP">We understand the importance of convenience when it comes to accessing healthcare services.</p>
+
+ </div>
+
+ <div class="wrapper">
+
+
+
+   <div class="opening-days">
+    <div class="opening-hours-card">
+          <div class="opening-hours">
+              <div class="day">Monday</div>
+              <div class="time">09:00 AM - 06:00 PM</div>
+          </div>
+          <div class="opening-hours">
+              <div class="day">Tuesday</div>
+              <div class="time">09:00 AM - 06:00 PM</div>
+          </div>
+          <div class="opening-hours">
+              <div class="day">Wednesday</div>
+              <div class="time">09:00 AM - 06:00 PM</div>
+          </div>
+          <div class="opening-hours">
+              <div class="day">Thursday</div>
+              <div class="time">09:00 AM - 06:00 PM</div>
+          </div>
+          <div class="opening-hours">
+              <div class="day">Friday</div>
+              <div class="time">09:00 AM - 06:00 PM</div>
+          </div>
+          <div class="opening-hours">
+              <div class="day">Saturday</div>
+              <div class="time">Closed</div>
+          </div>
+          <div class="opening-hours">
+              <div class="day">Sunday</div>
+              <div class="time">Closed</div>
+          </div>
+      </div>
+</div>
+
+
+<div class="emergency">
+    <div class="field">
+        <i class="fas fa-first-aid fa-7x text-primary"></i>
+        <div class="text-area">
+            <p class="fieldtext">Emergency Case !!</p>
+            <p class="emergencyP">If you are experiencing a medical emergency, please seek immediate assistance.
+            Our hospital's emergency department is equipped to handle a wide range of medical emergencies.</p>
+            <a href="https://api.whatsapp.com/send?phone=31687638034" class="btn btn-primary">Contact Us 24/7</a>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2437.9744064741917!2d4.8598083!3d52.3346104!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e1e2c3698a61%3A0x595abf41bfccdee!2sVU%20University%20Medical%20Center!5e0!3m2!1str!2snl!4v1709413380281!5m2!1str!2snl"
+ width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</section>
+
+
+<!-- contact us section starts here -->
+
+<div class="contact-section">
+
+<section class="statistics">
+
+     <div class="row">
+         <div class="align-items-center3">
+           <div class="contact-icon"><i class="fas   fa-solid fa-hospital"></i></div>
+           <div class="ms-3">
+             <h3 class="mb-0">24/7</h3>
+             <p class="mb-1">Always open for emergency</p>
+           </div>
+         </div>
+         <div class="align-items-center1">
+           <div class="contact-icon"><i class="fas fa-phone"></i></div>
+           <div class="ms-3">
+             <h3 class="mb-0">0800 2466 7921</h3>
+             <p class="mb-1">Have a question? call us now</p>
+           </div>
+         </div>
+         <div class="align-items-center2">
+           <div class="contact-icon"><i class="far fa-envelope"></i></div>
+           <div class="ms-3">
+             <h3 class="mb-0">info@Example.com</h3>
+             <p class="mb-1">Need support? Drop us an email</p>
+           </div>
+         </div>
+         <div class="align-items-center">
+           <div class="contact-icon"><i class="far fa-clock"></i></div>
+           <div class="ms-3">
+             <h3 class="mb-0">Mon – Fri 09:00 – 18:00</h3>
+             <p class="mb-1">We are open On</p>
+           </div>
+         </div>
+       </div>
+
+</section>
+</div>
+<!-- Footer section starts her -->
+
+  <footer class="footer">
+  <section class="container">
+    <div class="footer-content">
+      <div class="company-info">
+          <h3 class="text-primary">Medico</h3>
+          <p>Medico is a leading healthcare provider committed to delivering exceptional medical services to our patients. With a team of experienced professionals and state-of-the-art facilities, we strive to ensure the well-being of our community.</p>
+          <p>Contact us:<span class="text-primary" > example@medico.com </span></p>
+          <p >Phone:<a class="Phone" href="https://api.whatsapp.com/send?phone=31687638034"> +31687638034</a></p>
+      </div>
+        <div class="newsletter newsletter-section">
+            <h3 class="text-primary" >Newsletter</h3>
+            <p>Stay informed about the latest medical advancements, health tips, and exclusive offers by subscribing to our newsletter.</p>
+            <form action="#" method="post" id="newsletterForm">
+                <input type="email" name="email" id="emailInput" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+            <div id="subscribeMessage"></div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>&copy; 2024 Medico. All rights reserved.</p>
+    </div>
+  </section>
+
+  </footer>
+  <!-- back to top buttun -->
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="https://kit.fontawesome.com/63aec010f1.js" crossorigin="anonymous"></script>
+  <script src="style.js"></script>
+</div>
+</body>
+</html>
