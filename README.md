@@ -1,4 +1,4 @@
-# Medico Clinic Website
+# [Medico Clinic Website](https://medico-clinic.netlify.app/)
 
 Welcome to the repository for Medico Clinic's website! This project is designed to provide a comprehensive and user-friendly interface for a medical clinic. The website includes information about the clinic, its doctors, departments, working hours, and contact details.
 
